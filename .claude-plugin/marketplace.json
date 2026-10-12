@@ -1,0 +1,12 @@
+{
+  "name": "cosmo",
+  "owner": { "name": "Corentin Reby" },
+  "plugins": [
+    {
+      "name": "equipe-cosmo",
+      "displayName": "Équipe Cosmo",
+      "source": "./plugins/equipe-cosmo",
+      "description": "Équipe d'agents de direction (stratégie, juridique, finance, technique, commercial, qualité, école) avec file de validation."
+    }
+  ]
+}
