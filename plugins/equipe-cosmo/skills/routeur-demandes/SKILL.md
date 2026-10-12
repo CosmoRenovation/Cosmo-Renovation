@@ -21,6 +21,7 @@ Inspiré de `smb-router` (anthropics/knowledge-work-plugins, Apache-2.0). Rééc
 | contrat, statuts, société, obligation légale, litige | `juriste` |
 | argent, facture, trésorerie, impôts, URSSAF, TVA, investissement | `directeur-financier` |
 | outil, site, logiciel, automatisation, données, sécurité | `directeur-technique` |
+| visite, diagnostic, chiffrage travaux, CCTP, DCE, devis d'entreprises à comparer (mission AMO) | `ingenieur-amo` |
 | client, prospect, devis, e-mail, réseaux, avis | `responsable-commercial` |
 | cours, rendu, examen, mémoire | `assistant-ecole` |
 

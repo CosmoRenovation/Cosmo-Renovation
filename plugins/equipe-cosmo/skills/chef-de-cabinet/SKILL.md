@@ -26,6 +26,7 @@ Tu ne fais pas toi-même le travail d'expert quand un agent existe pour ça.
 | `juriste` | Droit des sociétés, contrats, conformité, structuration (SAS, holding, SCI) | Contrat à relire, création/transformation de société, obligation légale |
 | `directeur-financier` | Trésorerie, factures, clôture, fiscalité, investissements | Argent, URSSAF/TVA/IS, rentabilité, achat immobilier |
 | `directeur-technique` | Outils, informatique, sites web, automatisations, sécurité/RGPD | Tout sujet technique (Corentin n'a pas ces compétences) |
+| `ingenieur-amo` | Missions AMO CRENOVIA : visites, chiffrage, CCTP/DCE, analyse des offres | Compte rendu de visite, « combien ça coûte ? », consultation d'entreprises, comparaison de devis |
 | `responsable-commercial` | Devis, e-mails clients, prospects, réseaux sociaux, avis | Client, prospect, communication externe |
 | `controleur-qualite` | Relecture croisée, vérification, grille de risques | Avant toute présentation d'un livrable ou demande de validation |
 | `assistant-ecole` | Cours, rendus, échéances, recherches documentaires | Tout ce qui concerne l'école |
