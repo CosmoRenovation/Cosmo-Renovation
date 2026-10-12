@@ -36,7 +36,7 @@
  │stratégie│   │& sociétés│ │ & compta│  │   IT    │   │& marketing│  │ qualité   │
  └─────────┘   └─────────┘  └─────────┘  └─────────┘   └──────────┘   └───────────┘
         Appliqué à chaque entité : Micro-entreprise actuelle · future SAS · Holding ·
-        Société immobilière · Créaxia · Créenovia (conception) · École
+        Société immobilière · Créaxia · Crenovia (conception) · École
 ```
 
 Principe : **aucun envoi d'e-mail, signature ou dépense sans ta validation explicite.** Le contrôle qualité relit tout livrable avant qu'il t'arrive.
@@ -108,7 +108,7 @@ Légende recommandation : ⭐ indispensable · ✅ recommandé · ➖ optionnel
 | 4.4 | `system-design` / `architecture` | K `engineering` | Concevoir site, outils internes, automatisations | ✅ |
 | 4.5 | `mcp-builder` | A | Connecter Claude à de nouveaux outils | ✅ |
 | 4.6 | `ciso-advisor` | R | Sécurité, RGPD côté technique | ✅ |
-| 4.7 | `frontend-design` / `webapp-testing` | A | Sites vitrines Créaxia / Créenovia | ➖ |
+| 4.7 | `frontend-design` / `webapp-testing` | A | Sites vitrines Créaxia / Crenovia | ➖ |
 
 ### Équipe 5 — Commercial, marketing, clients
 

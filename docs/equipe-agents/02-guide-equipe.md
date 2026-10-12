@@ -20,7 +20,7 @@ Chef de cabinet = la conversation principale de Claude (règles dans CLAUDE.md)
    (tous : verification-avant-livraison)
 ```
 
-37 skills (dont `chef-de-cabinet`, qui transporte les règles dans Cowork), tous réécrits en français : texte seul, **aucun script, hook ni code tiers**. Chaque skill indique sa source d'inspiration.
+38 skills (dont `bureau-de-gestion`, `chef-de-cabinet`, qui transporte les règles dans Cowork), tous réécrits en français : texte seul, **aucun script, hook ni code tiers**. Chaque skill indique sa source d'inspiration.
 
 ## Garde-fous intégrés
 - **Rien ne part sans toi** : les agents n'ont pas l'outil d'envoi d'e-mail (seulement lecture + brouillons).
@@ -36,20 +36,24 @@ Chef de cabinet = la conversation principale de Claude (règles dans CLAUDE.md)
 3. Pour valider : « je valide V-20261012-01 » · « je refuse V-… parce que … » · « à revoir V-… : … ».
 
 ## Mise en autonomie (à activer quand tu es prêt)
-- **Routine du matin** (jours ouvrés, ex. 7 h 45) : `/point-du-jour` + `tri-emails` → rapport dans `bureau/rapports/`
-  et notification sur ton téléphone.
+Le bureau étant sur OneDrive (ton ordinateur), les tâches automatiques se créent dans **Cowork → Tâches planifiées**
+(elles tournent quand ton ordinateur est allumé et Cowork ouvert) :
+- **Routine du matin** (jours ouvrés, ex. 7 h 45) : `/point-du-jour` + `tri-emails` → rapport
+  dans `_BUREAU_IA/rapports/`.
 - **Routine du lundi** : `/point-hebdo`.
 - **Routine du 1er du mois** : `cloture-mensuelle` + `suivi-obligations` pour chaque entité.
 Les routines préparent et proposent ; elles n'exécutent aucune action sortante sans ta validation.
 
 ## Première étape indispensable
-Compléter les fiches de `bureau/entites/` (SIREN, activité, chiffres, échéances, comptable). Sans elles, les agents
+Installer le bureau de gestion (voir Cowork ci-dessus) puis corriger les fiches de `_BUREAU_IA/entites/` (SIREN, activité, chiffres, échéances, comptable). Sans elles, les agents
 travaillent sur des hypothèses. Tu peux simplement dicter les infos dans une session : l'équipe remplit les fiches.
 
 ## Utiliser l'équipe dans Cowork
 L'équipe est empaquetée en **plugin** (`plugins/equipe-cosmo/`) et le dépôt sert de **place de marché**.
 1. Cowork → Personnaliser → Plugins → « + » → Ajouter une place de marché → `CosmoRenovation/Cosmo-Renovation`.
 2. Installer « Équipe Cosmo ».
-3. Ouvrir dans Cowork le dossier local qui contient ce dépôt (pour accéder au `bureau/`), puis commencer par :
-   « Charge le chef de cabinet et fais le point du jour ».
+3. Ouvrir dans Cowork le dossier OneDrive **`00-PRIMO/TC5`** (le bureau de gestion), puis la première fois :
+   « Charge le chef de cabinet et installe le bureau de gestion » → création de `_BUREAU_IA/`, lecture des classeurs,
+   carte du bureau et pré-remplissage des fiches des sociétés.
+   Ensuite : « Fais le point du jour ».
 4. Après chaque modification des agents/skills sur GitHub : bouton « Mettre à jour » de la place de marché.

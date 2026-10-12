@@ -1,6 +1,6 @@
 ---
 name: structuration-holding
-description: Aide à concevoir l'organigramme du groupe (holding, SAS opérationnelle, société immobilière, Créaxia, Créenovia) - qui détient quoi, flux d'argent (dividendes, management fees, comptes courants), régimes fiscaux applicables et ordre de création. À utiliser pour tout sujet de holding ou d'organisation entre les sociétés.
+description: Aide à concevoir l'organigramme du groupe (holding, SAS opérationnelle, société immobilière, Créaxia, Crenovia) - qui détient quoi, flux d'argent (dividendes, management fees, comptes courants), régimes fiscaux applicables et ordre de création. À utiliser pour tout sujet de holding ou d'organisation entre les sociétés.
 ---
 
 # Structuration holding

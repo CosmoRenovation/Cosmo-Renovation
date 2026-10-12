@@ -1,4 +1,4 @@
-# Créenovia — conception
+# Crenovia — conception
 
 - **Statut juridique :** À préciser
 - **Rôle dans le groupe :** Conception (plans, design, études)

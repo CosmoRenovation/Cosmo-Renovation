@@ -9,7 +9,7 @@ Inspiré de `content-strategy` / `social-content-engine` (anthropics/knowledge-w
 
 1. Par entité : cible, ton, réseaux pertinents (Instagram/Facebook pour la rénovation, LinkedIn pour la conception
    et la holding), fréquence réaliste (ex. 2 posts/semaine).
-2. Calendrier mensuel : thèmes (chantier avant/après, astuce, coulisses, avis client, projet Créenovia).
+2. Calendrier mensuel : thèmes (chantier avant/après, astuce, coulisses, avis client, projet Crenovia).
 3. Rédaction : accroche, texte court, appel à l'action, hashtags locaux ; visuel proposé (Canva si connecté).
 4. Droits : autorisation du client pour photos de son logement ; pas d'adresse identifiable.
 5. Publication uniquement après validation (V-… par lot mensuel).

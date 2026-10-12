@@ -10,7 +10,7 @@ Inspiré de `smb-router` (anthropics/knowledge-work-plugins, Apache-2.0). Rééc
 ## Étapes
 
 1. **Reformuler** en une phrase ce que Corentin veut obtenir (le résultat, pas la tâche).
-2. **Identifier l'entité** : micro-entreprise, SAS, holding, immobilier, Créaxia, Créenovia, école, ou « transverse ».
+2. **Identifier l'entité** : micro-entreprise, SAS, holding, immobilier, Créaxia, Crenovia, école, ou « transverse ».
    Si ambigu, poser **une seule** question.
 3. **Lire le contexte** : la fiche `bureau/entites/<entité>.md` et les décisions actives liées dans `bureau/decisions/journal.md`.
 4. **Choisir qui fait quoi** :

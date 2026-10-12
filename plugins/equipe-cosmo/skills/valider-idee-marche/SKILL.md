@@ -1,6 +1,6 @@
 ---
 name: valider-idee-marche
-description: Teste rapidement si une idée d'activité ou d'offre a un marché - clients cibles, concurrents locaux, prix pratiqués, demande, différenciation - à partir de recherches web. À utiliser avant d'investir du temps ou de l'argent dans une nouvelle activité (Créaxia, Créenovia, nouveau service de rénovation…).
+description: Teste rapidement si une idée d'activité ou d'offre a un marché - clients cibles, concurrents locaux, prix pratiqués, demande, différenciation - à partir de recherches web. À utiliser avant d'investir du temps ou de l'argent dans une nouvelle activité (Créaxia, Crenovia, nouveau service de rénovation…).
 ---
 
 # Valider une idée sur le marché

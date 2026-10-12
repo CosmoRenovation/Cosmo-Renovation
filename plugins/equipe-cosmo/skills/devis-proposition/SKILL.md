@@ -1,6 +1,6 @@
 ---
 name: devis-proposition
-description: Prépare un devis ou une proposition commerciale (rénovation, conception Créenovia, prestation Créaxia) clair, conforme aux mentions obligatoires, avec postes détaillés, prix, acomptes, délais et conditions, en brouillon pour validation. À utiliser dès qu'un client ou prospect demande un prix.
+description: Prépare un devis ou une proposition commerciale (rénovation, conception Crenovia, prestation Créaxia) clair, conforme aux mentions obligatoires, avec postes détaillés, prix, acomptes, délais et conditions, en brouillon pour validation. À utiliser dès qu'un client ou prospect demande un prix.
 ---
 
 # Devis et proposition commerciale

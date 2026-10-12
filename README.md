@@ -1,7 +1,7 @@
 # Cosmo Rénovation — bureau de direction augmenté
 
 Équipe d'agents Claude qui aide Corentin à piloter ses entreprises et projets (micro-entreprise, future SAS, holding,
-société immobilière, Créaxia, Créenovia, école).
+société immobilière, Créaxia, Crenovia, école).
 
 - Règles de l'équipe : [`CLAUDE.md`](CLAUDE.md)
 - Guide d'utilisation : [`docs/equipe-agents/02-guide-equipe.md`](docs/equipe-agents/02-guide-equipe.md)

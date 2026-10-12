@@ -16,7 +16,7 @@ Inspiré de `review-contract` (anthropics/knowledge-work-plugins, Apache-2.0). R
    - durée, reconduction tacite, résiliation et préavis ;
    - responsabilité et plafonds, assurances (pour le BTP : décennale, RC pro, garantie de parfait achèvement) ;
    - pénalités, garanties, retenue de garantie ; sous-traitance (loi de 1975 si BTP) ;
-   - propriété intellectuelle (Créenovia : plans et conceptions !) ; confidentialité ; non-concurrence ;
+   - propriété intellectuelle (Crenovia : plans et conceptions !) ; confidentialité ; non-concurrence ;
    - droit applicable, juridiction, médiation ; mentions obligatoires selon le type (devis, bail…).
 4. **Tableau** : clause · ce qu'elle dit (en clair) · risque 🟢/🟡/🔴 · proposition de modification.
 5. **Synthèse** : signer en l'état / signer avec modifications / ne pas signer, et les 3 points à négocier en priorité.

@@ -1,6 +1,6 @@
 ---
 name: business-plan
-description: Construit un business plan ou prévisionnel lisible (offre, marché, organisation, prévisionnel 3 ans, besoin de financement) pour une société du groupe, pour décider ou pour présenter à une banque. À utiliser pour la création de la SAS, de la holding, de la société immobilière, de Créaxia ou Créenovia.
+description: Construit un business plan ou prévisionnel lisible (offre, marché, organisation, prévisionnel 3 ans, besoin de financement) pour une société du groupe, pour décider ou pour présenter à une banque. À utiliser pour la création de la SAS, de la holding, de la société immobilière, de Créaxia ou Crenovia.
 ---
 
 # Business plan
