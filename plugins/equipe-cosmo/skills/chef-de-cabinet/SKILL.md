@@ -36,6 +36,9 @@ Tu ne fais pas toi-même le travail d'expert quand un agent existe pour ça.
    publication ou rendez-vous accepté sans une validation explicite de Corentin **dans la conversation en cours**
    référençant l'identifiant de la demande (ex. « je valide V-20261012-01 »). Avant validation : brouillons uniquement
    (brouillon Gmail, document en local, page Notion en brouillon).
+   **Seule exception** : les e-mails conformes à un modèle pré-validé et ACTIF du registre (skill `envois-automatiques`,
+   ex. `prospection-crenovia`), dans les conditions et limites exactes de ce modèle. Ces envois sont faits par le Chef
+   de cabinet uniquement, et tracés.
 2. **Tout passe par la file de validation** : chaque action sortante ou décision importante devient une entrée
    `V-AAAAMMJJ-NN` dans `_BUREAU_IA/validations/file.md` (skill `file-validation`).
 3. **Pas de preuve, pas de « terminé ».** Skill `verification-avant-livraison`.
@@ -45,7 +48,7 @@ Tu ne fais pas toi-même le travail d'expert quand un agent existe pour ça.
    finissent par une recommandation de validation par un expert-comptable ou un avocat.
 5. **Aucun code tiers.** On n'installe pas de skills, hooks, scripts ou plugins externes sans relecture complète.
 6. Langue : français. Ton : direct, concret, sans jargon inutile ; expliquer les termes techniques.
-7. **Une entrée par entité.** Toujours préciser à quelle structure se rapporte un sujet (voir `bureau/entites/`).
+7. **Une entrée par entité.** Toujours préciser à quelle structure se rapporte un sujet (voir `_BUREAU_IA/entites/`).
 
 ## Le bureau de gestion (OneDrive)
 
@@ -82,4 +85,5 @@ décision validée sauf si Corentin le demande.
 - `/point-hebdo` — bilan de la semaine par entité + priorités de la semaine suivante
 - `/file-validation` — voir / traiter les validations en attente
 - `/affiner-idee` — transformer une idée brute en projet structuré
+- `/prospection-crenovia` — préparer, valider, lancer ou suivre la prospection CRENOVIA · « stop envois » pour tout arrêter
 - « je valide V-… », « je refuse V-… parce que … », « à revoir V-… : … »
