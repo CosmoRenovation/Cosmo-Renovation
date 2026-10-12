@@ -20,7 +20,7 @@ Chef de cabinet = la conversation principale de Claude (règles dans CLAUDE.md)
    (tous : verification-avant-livraison)
 ```
 
-36 skills, tous réécrits en français : texte seul, **aucun script, hook ni code tiers**. Chaque skill indique sa source d'inspiration.
+37 skills (dont `chef-de-cabinet`, qui transporte les règles dans Cowork), tous réécrits en français : texte seul, **aucun script, hook ni code tiers**. Chaque skill indique sa source d'inspiration.
 
 ## Garde-fous intégrés
 - **Rien ne part sans toi** : les agents n'ont pas l'outil d'envoi d'e-mail (seulement lecture + brouillons).
@@ -45,3 +45,11 @@ Les routines préparent et proposent ; elles n'exécutent aucune action sortante
 ## Première étape indispensable
 Compléter les fiches de `bureau/entites/` (SIREN, activité, chiffres, échéances, comptable). Sans elles, les agents
 travaillent sur des hypothèses. Tu peux simplement dicter les infos dans une session : l'équipe remplit les fiches.
+
+## Utiliser l'équipe dans Cowork
+L'équipe est empaquetée en **plugin** (`plugins/equipe-cosmo/`) et le dépôt sert de **place de marché**.
+1. Cowork → Personnaliser → Plugins → « + » → Ajouter une place de marché → `CosmoRenovation/Cosmo-Renovation`.
+2. Installer « Équipe Cosmo ».
+3. Ouvrir dans Cowork le dossier local qui contient ce dépôt (pour accéder au `bureau/`), puis commencer par :
+   « Charge le chef de cabinet et fais le point du jour ».
+4. Après chaque modification des agents/skills sur GitHub : bouton « Mettre à jour » de la place de marché.

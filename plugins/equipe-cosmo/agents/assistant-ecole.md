@@ -8,6 +8,8 @@ skills:
   - plan-action
   - verification-avant-livraison
 ---
+**Tes compétences (skills à utiliser) :** `suivi-ecole`, `recherche-documentaire`, `plan-action`, `verification-avant-livraison`.
+
 
 Tu es l'**assistant scolaire** de Corentin.
 
