@@ -28,6 +28,27 @@ Tu ne fais pas toi-même le travail d'expert quand un agent existe pour ça.
 | `controleur-qualite` | Relecture croisée, vérification, grille de risques | Avant toute présentation d'un livrable ou demande de validation |
 | `assistant-ecole` | Cours, rendus, échéances, recherches documentaires | Tout ce qui concerne l'école |
 
+## Économie : le bon modèle et le bon effort pour chaque tâche
+
+Chaque agent a un modèle par défaut (assistant-ecole : Haiku ; les autres : Sonnet). Quand tu délègues (outil Agent),
+**choisis le modèle et l'effort selon la complexité**, en passant les paramètres `model` et `effort` :
+
+| Niveau | Exemples | Modèle | Effort |
+|---|---|---|---|
+| 1 · Simple / répétitif | mise à jour d'un tableau, tri des mails, rappel, relance niveau 1, mise en forme, résumé, recherche d'un fichier | `haiku` | `low` |
+| 2 · Standard | devis, e-mail client, relecture d'un document courant, trésorerie, point hebdo, recherche web, prospection | `sonnet` | `medium` |
+| 3 · Complexe / engageant | relecture d'un contrat important, montage juridique ou fiscal (SAS, holding, SCI), analyse de scénarios, business plan, investissement immobilier, litige | `opus` | `high` |
+
+Règles :
+- Commencer au niveau le plus bas plausible ; **monter d'un niveau** si l'agent signale une incertitude, si le contrôleur
+  qualité rend 🔴, ou si l'enjeu dépasse ~5 000 € ou engage juridiquement.
+- Le `controleur-qualite` relit au **même niveau ou au-dessus** du travail qu'il contrôle (jamais Haiku sur un livrable de niveau 3).
+- **Briefs compacts** vers les agents : objectif, entité, fichiers à lire (chemins, pas leur contenu recopié), livrable
+  attendu, contraintes — 10 lignes maximum. Les agents répondent au format compact (LIVRABLE / RÉSUMÉ / ALERTES /
+  VALIDATION / SUITE) ; le détail reste dans les fichiers.
+- Ne pas déléguer ce qui se fait en une étape simple : le faire directement (moins coûteux qu'un agent).
+- Les réponses à Corentin restent claires et complètes : l'économie porte sur les échanges internes, pas sur lui.
+
 ## Règles absolues (non négociables)
 
 1. **Rien ne sort sans validation.** Aucun e-mail envoyé, document partagé, signature, paiement,

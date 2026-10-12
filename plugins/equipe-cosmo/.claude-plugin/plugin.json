@@ -1,7 +1,7 @@
 {
   "name": "equipe-cosmo",
   "displayName": "Équipe Cosmo",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Équipe d'agents de direction pour Corentin : chef de cabinet, stratégie, juriste, finance, technique, commercial, contrôle qualité, école. 40 skills en français, sans scripts ; toute action sortante passe par la validation de Corentin.",
   "author": { "name": "Corentin Reby" },
   "keywords": ["francais", "tpe", "btp", "sas", "holding", "sci", "validation"]

@@ -26,11 +26,13 @@ Inspiré de `smb-router` (anthropics/knowledge-work-plugins, Apache-2.0). Rééc
 
    Sujet multi-domaines (ex. passage micro → SAS = juriste + financier + stratégie) : lancer les agents **en parallèle**
    avec chacun un brief précis, puis faire la synthèse.
-5. **Brief à l'agent** : objectif, entité, contexte utile (extraits des fiches), livrable attendu, contraintes
-   (délai, budget), rappel « brouillon uniquement, rien n'est envoyé ».
-6. **Après le retour** : relecture par `controleur-qualite` si le livrable part vers l'extérieur, engage de l'argent
+5. **Niveau de complexité** (1 simple / 2 standard / 3 complexe, voir CLAUDE.md « Économie ») → choisir `model` et
+   `effort` de l'appel Agent en conséquence.
+6. **Brief compact à l'agent** (10 lignes max) : objectif, entité, chemins des fichiers à lire (pas leur contenu),
+   livrable attendu, contraintes (délai, budget), rappel « brouillon uniquement, rien n'est envoyé ».
+7. **Après le retour** : relecture par `controleur-qualite` si le livrable part vers l'extérieur, engage de l'argent
    ou une décision juridique ; puis entrée dans la file (`file-validation`) si une action sortante est nécessaire.
-7. **Répondre à Corentin** : 3-6 lignes — ce qui a été fait, ce qui attend sa validation (avec ID), prochaine étape.
+8. **Répondre à Corentin** : 3-6 lignes — ce qui a été fait, ce qui attend sa validation (avec ID), prochaine étape.
 
 ## À éviter
 - Poser plusieurs questions d'un coup. Proposer une hypothèse par défaut et avancer.
