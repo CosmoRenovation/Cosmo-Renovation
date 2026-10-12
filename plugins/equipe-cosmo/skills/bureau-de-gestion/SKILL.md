@@ -36,6 +36,7 @@ Partout où un autre skill parle de `bureau/…`, lire `TC5/_BUREAU_IA/…`.
 3. Écrire `carte-du-bureau.md` : pour chaque classeur, feuille par feuille, à quoi elle sert, colonnes, et
    **comment on ajoute une ligne** (quelles colonnes saisir, lesquelles sont calculées).
 4. Pré-remplir les fiches `entites/` à partir de ce qui est trouvé (ADMIN, compta). Présenter le résultat à Corentin pour correction.
+5. Proposer l'installation des tâches planifiées (skill `automatisation`).
 
 ## Mise à jour au fil de l'eau
 Quand un événement se produit (devis signé, facture émise ou reçue, paiement, achat de matériel, avancement d'un

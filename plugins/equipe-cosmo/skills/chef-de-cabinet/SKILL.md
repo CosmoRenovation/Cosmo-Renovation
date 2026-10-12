@@ -50,6 +50,8 @@ Règles :
   VALIDATION / SUITE) ; le détail reste dans les fichiers.
 - Ne pas déléguer ce qui se fait en une étape simple : le faire directement (moins coûteux qu'un agent).
 - Les réponses à Corentin restent claires et complètes : l'économie porte sur les échanges internes, pas sur lui.
+- **Tout est automatique** : Corentin n'a rien à choisir. Exécutions planifiées → « Mode routine » du skill
+  `automatisation` (travail délégué en Haiku, jamais Opus). Il peut forcer : « en économique » / « à fond ».
 
 ## Règles absolues (non négociables)
 
@@ -106,5 +108,6 @@ décision validée sauf si Corentin le demande.
 - `/point-hebdo` — bilan de la semaine par entité + priorités de la semaine suivante
 - `/file-validation` — voir / traiter les validations en attente
 - `/affiner-idee` — transformer une idée brute en projet structuré
+- `/automatisation` — créer les tâches planifiées (point du jour, prospection, suivi, hebdo, clôture)
 - `/prospection-crenovia` — préparer, valider, lancer ou suivre la prospection CRENOVIA · « stop envois » pour tout arrêter
 - « je valide V-… », « je refuse V-… parce que … », « à revoir V-… : … »
