@@ -1,6 +1,6 @@
 ---
 name: bureau-de-gestion
-description: Carte et règles du Bureau de gestion de Corentin - son dossier OneDrive « 00-PRIMO/TC5 » (ADMIN, Archivage, DATA_Base, Equipement, S9, STAGE et les classeurs Excel de comptabilité et de suivi des projets). À utiliser au début de toute session, avant de lire ou modifier un fichier du bureau, et pour mettre à jour au fil de l'eau la comptabilité, le suivi opérationnel et le tableau de bord des projets.
+description: Carte et règles du Bureau de gestion de Corentin - son dossier OneDrive « 00-PRIMO/TC5 » (00_Archivage, 01_DATA_Base, 02_ADMIN, 03_BUREAU_IA, S9 et les classeurs Excel de comptabilité, de suivi opérationnel CRENOVIA et le tableau de bord des projets). À utiliser au début de toute session, avant de lire ou modifier un fichier du bureau, et pour mettre à jour au fil de l'eau la comptabilité, le suivi opérationnel et le tableau de bord des projets.
 ---
 
 # Bureau de gestion (OneDrive)
@@ -14,23 +14,28 @@ Si le dossier n'est pas accessible dans la session (session cloud, autre ordinat
 
 | Élément | Contenu (à confirmer à la première exploration) | Agent principal |
 |---|---|---|
-| `ADMIN/` | Documents administratifs et juridiques des sociétés | juriste |
-| `Archivage/` | Archives ; contient aussi `_versions_IA/` (copies avant modification) | tous |
-| `DATA_Base/` | Données de référence | tous (lecture) |
-| `Equipement/` | Matériel, outillage, inventaire | directeur-financier |
-| `S9/`, `STAGE/` | École (semestre 9, stage) | assistant-ecole |
-| `Comptabilite_Generale_CRENOVIA.xlsx` | Comptabilité de Crenovia | directeur-financier |
+| `00_Archivage/` | Archives ; contient aussi `_versions_IA/` (copies avant modification) | tous |
+| `01_DATA_Base/` | Données de référence | tous (lecture) |
+| `02_ADMIN/` | Documents administratifs et juridiques des sociétés | juriste |
+| `03_BUREAU_IA/` | Espace de l'équipe d'agents (créé par Corentin ; compléter sa structure au premier lancement) | chef de cabinet |
+| `S9/` | École (semestre 9) | assistant-ecole |
+| `Comptabilite_Generale_CRENOVIA.xlsx` | Comptabilité de CRENOVIA (trésorerie probablement ici — à confirmer) | directeur-financier |
 | `Comptabilite_MultiEntreprises.xlsx` | Comptabilité consolidée des entités | directeur-financier |
-| `CRENOVIA_Suivi_Operationnel.xlsx` | Suivi opérationnel (chantiers / projets Crenovia) | responsable-commercial |
+| `CRENOVIA_Suivi_Operationnel.xlsx` | Suivi opérationnel (missions / projets CRENOVIA) | ingenieur-amo, responsable-commercial |
 | `Tableau_de_bord_Projets.xlsx` | Tableau de bord de tous les projets | chef de cabinet |
-| `_BUREAU_IA/` | Espace de l'équipe d'agents (créé au premier lancement) | chef de cabinet |
 
-`_BUREAU_IA/` contient : `carte-du-bureau.md` (structure détaillée des classeurs), `entites/`, `validations/file.md`,
+La structure du dossier peut évoluer (Corentin renomme ou déplace) : au début de chaque session, lister `TC5/` et, si un
+élément de cette carte a changé, mettre à jour `carte-du-bureau.md` et le signaler, au lieu d'écrire dans un ancien chemin.
+
+**Synchronisation OneDrive** : si OneDrive est en pause (« Suspendu ») ou si un fichier n'est disponible qu'en ligne
+(icône nuage), les modifications ne partent pas / le fichier peut être incomplet → le signaler à Corentin avant d'écrire.
+
+`03_BUREAU_IA/` contient : `carte-du-bureau.md` (structure détaillée des classeurs), `entites/`, `validations/file.md`,
 `decisions/journal.md`, `taches.md`, `rapports/`, `journal-des-mises-a-jour.md`.
-Partout où un autre skill parle de `bureau/…`, lire `TC5/_BUREAU_IA/…`.
+Partout où un autre skill parle de `bureau/…`, lire `TC5/03_BUREAU_IA/…`.
 
 ## Premier lancement (une seule fois)
-1. Créer `_BUREAU_IA/` avec la structure ci-dessus (modèles : dossier `bureau/` du dépôt GitHub CosmoRenovation/Cosmo-Renovation).
+1. Compléter `03_BUREAU_IA/` (déjà créé par Corentin ; ne rien supprimer de ce qu'il contient) avec la structure ci-dessus (modèles : dossier `bureau/` du dépôt GitHub CosmoRenovation/Cosmo-Renovation).
 2. Explorer chaque sous-dossier (noms de fichiers seulement) et **ouvrir chaque classeur Excel en lecture** (skill xlsx) :
    feuilles, colonnes, formules, où se trouvent les totaux, dernière ligne remplie.
 3. Écrire `carte-du-bureau.md` : pour chaque classeur, feuille par feuille, à quoi elle sert, colonnes, et
@@ -53,11 +58,11 @@ projet, rendu d'école…), l'agent concerné met à jour le bon fichier **dans 
 
 ## Règles de sécurité des fichiers
 1. **Copie avant modification** : avant la première modification d'un classeur dans la journée, copier le fichier dans
-   `Archivage/_versions_IA/AAAA-MM-JJ_HHMM_<nom>.xlsx`.
+   `00_Archivage/_versions_IA/AAAA-MM-JJ_HHMM_<nom>.xlsx`.
 2. Ne jamais écraser une formule ni changer la mise en forme : ajouter des lignes dans le format existant (voir carte).
 3. Si le fichier est ouvert dans Excel ou en cours de synchronisation OneDrive (fichier verrouillé, icône de synchro,
    copie « en conflit ») : ne pas forcer ; réessayer plus tard et le signaler.
-4. Chaque modification est tracée dans `_BUREAU_IA/journal-des-mises-a-jour.md` :
+4. Chaque modification est tracée dans `03_BUREAU_IA/journal-des-mises-a-jour.md` :
    `AAAA-MM-JJ HH:MM · agent · fichier · feuille/ligne · avant → après · source (e-mail, document, demande de Corentin)`.
 5. Les chiffres viennent d'une source (facture, relevé, e-mail, dire de Corentin) ; jamais d'estimation saisie comme un fait.
 6. Rouvrir le fichier après écriture pour vérifier que la ligne est bien là et que les totaux se recalculent

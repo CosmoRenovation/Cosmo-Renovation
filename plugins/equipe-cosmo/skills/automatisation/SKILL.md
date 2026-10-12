@@ -27,7 +27,7 @@ Quand la consigne contient « Mode routine » :
    `model: haiku` et `effort: low` (lecture des mails, mise à jour des tableaux, préparation des envois, collecte des échéances).
 2. Monter en `sonnet` seulement pour : rédaction d'un message personnalisé, synthèse hebdo ou mensuelle, anomalie à analyser.
    Jamais `opus` en routine : un sujet complexe (niveau 3) est mis de côté et signalé à Corentin pour une session dédiée.
-3. Le Chef de cabinet se limite à : lancer, contrôler les retours compacts, écrire le rapport dans `_BUREAU_IA/rapports/`.
+3. Le Chef de cabinet se limite à : lancer, contrôler les retours compacts, écrire le rapport dans `03_BUREAU_IA/rapports/`.
 4. Ne sort que ce que permettent les modèles ACTIFS d'`envois-automatiques` ; tout le reste attend en brouillon dans la file de validation.
 5. Rapport final de 15 lignes maximum. Si rien de neuf : une seule ligne.
 

@@ -39,13 +39,13 @@ Chef de cabinet = la conversation principale de Claude (règles dans CLAUDE.md)
 Le bureau étant sur OneDrive (ton ordinateur), les tâches automatiques se créent dans **Cowork → Tâches planifiées**
 (elles tournent quand ton ordinateur est allumé et Cowork ouvert) :
 - **Routine du matin** (jours ouvrés, ex. 7 h 45) : `/point-du-jour` + `tri-emails` → rapport
-  dans `_BUREAU_IA/rapports/`.
+  dans `03_BUREAU_IA/rapports/`.
 - **Routine du lundi** : `/point-hebdo`.
 - **Routine du 1er du mois** : `cloture-mensuelle` + `suivi-obligations` pour chaque entité.
 Les routines préparent et proposent ; elles n'exécutent aucune action sortante sans ta validation.
 
 ## Première étape indispensable
-Installer le bureau de gestion (voir Cowork ci-dessus) puis corriger les fiches de `_BUREAU_IA/entites/` (SIREN, activité, chiffres, échéances, comptable). Sans elles, les agents
+Installer le bureau de gestion (voir Cowork ci-dessus) puis corriger les fiches de `03_BUREAU_IA/entites/` (SIREN, activité, chiffres, échéances, comptable). Sans elles, les agents
 travaillent sur des hypothèses. Tu peux simplement dicter les infos dans une session : l'équipe remplit les fiches.
 
 ## Utiliser l'équipe dans Cowork
@@ -53,7 +53,7 @@ L'équipe est empaquetée en **plugin** (`plugins/equipe-cosmo/`) et le dépôt 
 1. Cowork → Personnaliser → Plugins → « + » → Ajouter une place de marché → `CosmoRenovation/Cosmo-Renovation`.
 2. Installer « Équipe Cosmo ».
 3. Ouvrir dans Cowork le dossier OneDrive **`00-PRIMO/TC5`** (le bureau de gestion), puis la première fois :
-   « Charge le chef de cabinet et installe le bureau de gestion » → création de `_BUREAU_IA/`, lecture des classeurs,
+   « Charge le chef de cabinet et installe le bureau de gestion » → création de `03_BUREAU_IA/`, lecture des classeurs,
    carte du bureau et pré-remplissage des fiches des sociétés.
    Ensuite : « Fais le point du jour ».
 4. Après chaque modification des agents/skills sur GitHub : bouton « Mettre à jour » de la place de marché.

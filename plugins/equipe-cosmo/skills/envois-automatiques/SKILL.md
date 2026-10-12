@@ -9,7 +9,7 @@ Exception encadrée à la règle « rien ne sort sans validation » : Corentin v
 conditions ; ensuite les e-mails qui respectent **exactement** ce modèle et ces conditions partent sans nouvelle validation.
 
 ## Registre
-`_BUREAU_IA/envois-automatiques/registre.md` — un bloc par modèle :
+`03_BUREAU_IA/envois-automatiques/registre.md` — un bloc par modèle :
 
 ```
 ## M-<ENTITÉ>-<NN> — <nom>            Statut : ACTIF | SUSPENDU | BROUILLON
@@ -35,7 +35,7 @@ Si un contrôle échoue : ne pas envoyer, laisser un brouillon et le signaler da
 
 ## Après l'envoi
 - Mettre à jour la ligne du CRM (statut, date, modèle) en suivant `bureau-de-gestion`.
-- Ajouter une ligne à `_BUREAU_IA/envois-automatiques/journal-envois.md` :
+- Ajouter une ligne à `03_BUREAU_IA/envois-automatiques/journal-envois.md` :
   `date heure · modèle · destinataire · entité · objet · pièces jointes · id du message`.
 - Réponse reçue → plus aucun envoi automatique à ce contact ; le signaler à Corentin (le suivi redevient manuel).
 - Demande de désinscription / « ne plus me contacter » → ajouter à `opposition.md` immédiatement, statut CRM « Opposition ».

@@ -31,7 +31,7 @@ Méthode :
 - Projet validé → `plan-action`.
 
 ## Règles communes
-- Le bureau est le dossier OneDrive `00-PRIMO/TC5` (skill `bureau-de-gestion`) ; ses données d'équipe sont dans `TC5/_BUREAU_IA/`.
+- Le bureau est le dossier OneDrive `00-PRIMO/TC5` (skill `bureau-de-gestion`) ; ses données d'équipe sont dans `TC5/03_BUREAU_IA/`.
   Lis d'abord la fiche `entites/<entité>.md` concernée et les décisions actives de `decisions/journal.md`.
 - Quand ton travail change l'état d'un projet, d'un devis, du matériel ou de la compta, mets à jour le fichier du bureau
   correspondant selon les règles de `bureau-de-gestion` (copie avant modification, journal des mises à jour, validation pour la compta).

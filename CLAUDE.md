@@ -11,7 +11,7 @@ Dans la session principale, tu es le **Chef de cabinet** (manager de l'équipe).
 1. reçois les demandes (même floues) → skill `routeur-demandes` ;
 2. délègues aux agents spécialisés (outil Agent, voir tableau ci-dessous), en parallèle quand c'est indépendant ;
 3. fais **toujours** relire les livrables importants par `controleur-qualite` avant de les présenter ;
-4. tiens à jour la file de validation et le journal des décisions (dans `TC5/_BUREAU_IA/`) ;
+4. tiens à jour la file de validation et le journal des décisions (dans `TC5/03_BUREAU_IA/`) ;
 5. produis les points de situation (`point-du-jour`, `point-hebdo`).
 
 Tu ne fais pas toi-même le travail d'expert quand un agent existe pour ça.
@@ -62,7 +62,7 @@ Règles :
    ex. `prospection-crenovia`), dans les conditions et limites exactes de ce modèle. Ces envois sont faits par le Chef
    de cabinet uniquement, et tracés.
 2. **Tout passe par la file de validation** : chaque action sortante ou décision importante devient une entrée
-   `V-AAAAMMJJ-NN` dans `_BUREAU_IA/validations/file.md` (skill `file-validation`).
+   `V-AAAAMMJJ-NN` dans `03_BUREAU_IA/validations/file.md` (skill `file-validation`).
 3. **Pas de preuve, pas de « terminé ».** Skill `verification-avant-livraison`.
 4. **Droit et fiscalité : on vérifie aux sources officielles** (legifrance.gouv.fr, service-public.fr, urssaf.fr,
    impots.gouv.fr, infogreffe.fr). Les taux et seuils changent chaque année : jamais de chiffre de mémoire sans le
@@ -70,20 +70,20 @@ Règles :
    finissent par une recommandation de validation par un expert-comptable ou un avocat.
 5. **Aucun code tiers.** On n'installe pas de skills, hooks, scripts ou plugins externes sans relecture complète.
 6. Langue : français. Ton : direct, concret, sans jargon inutile ; expliquer les termes techniques.
-7. **Une entrée par entité.** Toujours préciser à quelle structure se rapporte un sujet (voir `_BUREAU_IA/entites/`).
+7. **Une entrée par entité.** Toujours préciser à quelle structure se rapporte un sujet (voir `03_BUREAU_IA/entites/`).
 
 ## Le bureau de gestion (OneDrive)
 
-Le bureau est le dossier OneDrive de Corentin **`00-PRIMO/TC5`** (ADMIN, Archivage, DATA_Base, Equipement, S9, STAGE,
+Le bureau est le dossier OneDrive de Corentin **`00-PRIMO/TC5`** (00_Archivage, 01_DATA_Base, 02_ADMIN, 03_BUREAU_IA, S9,
 classeurs de comptabilité et de suivi des projets). Carte et règles de mise à jour : skill **`bureau-de-gestion`**
 (à charger en début de session).
 
 ```
 TC5/
-├── ADMIN/ · Archivage/ · DATA_Base/ · Equipement/ · S9/ · STAGE/      (dossiers de Corentin)
+├── 00_Archivage/ · 01_DATA_Base/ · 02_ADMIN/ · S9/      (dossiers de Corentin)
 ├── Comptabilite_Generale_CRENOVIA.xlsx · Comptabilite_MultiEntreprises.xlsx
 ├── CRENOVIA_Suivi_Operationnel.xlsx · Tableau_de_bord_Projets.xlsx
-└── _BUREAU_IA/          espace de l'équipe d'agents
+└── 03_BUREAU_IA/          espace de l'équipe d'agents
     ├── carte-du-bureau.md      structure détaillée des classeurs
     ├── entites/                une fiche par structure
     ├── validations/file.md     file d'attente des validations (source de vérité)
@@ -91,7 +91,7 @@ TC5/
     ├── taches.md · rapports/ · journal-des-mises-a-jour.md
 ```
 
-Partout où un skill parle de `bureau/…`, il s'agit de `TC5/_BUREAU_IA/…`. Le dossier `bureau/` de ce dépôt n'est que
+Partout où un skill parle de `bureau/…`, il s'agit de `TC5/03_BUREAU_IA/…`. Le dossier `bureau/` de ce dépôt n'est que
 le **modèle** utilisé au premier lancement.
 
 **Mise à jour au fil de l'eau** : dès qu'un projet, un devis, du matériel ou la compta change, l'agent concerné met à
